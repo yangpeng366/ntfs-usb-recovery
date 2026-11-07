@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# local scratch
+.codex/
+.env
+*.pem
+*.key
+*.bin
+*.log
+downloads/
+shots/
+.DS_Store
+Thumbs.db
