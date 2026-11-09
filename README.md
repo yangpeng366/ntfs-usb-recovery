@@ -15,6 +15,6 @@ Windows 外接盘 NTFS 恢复经验与工具，源自 2026-11-05 至 11-08 的 E
 
 ## 作业与验证
 
-自动提权作业经验见 [elevated-jobs.md](references/elevated-jobs.md)，案例结果见 [case-study.md](references/case-study.md)。目录可读、Healthy 和 NOT Dirty 不构成所有文件内容完整或硬件无故障的证明。
+自动提权作业的本次实证见 [elevated-jobs.md](references/elevated-jobs.md)，可复用流程见全局 skill `windows-silent-elevate`，案例结果见 [case-study.md](references/case-study.md)。目录可读、Healthy 和 NOT Dirty 不构成所有文件内容完整或硬件无故障的证明。
 
 安装 `python -m pip install pytest ruff` 后运行 `pwsh -NoProfile -File examples/quality-gate.ps1`。测试使用临时文件和替身，不写真实磁盘。MIT 许可。

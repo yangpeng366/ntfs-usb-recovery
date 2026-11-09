@@ -14,6 +14,6 @@ Identify the physical device, volume, user and failure before changing anything.
 
 ## Workflow
 
-Read `references/playbook.md` for recovery order; `references/failure-modes.md` to distinguish DACL, metadata, device and I/O failures; `references/ntfs-layout.md` for record layout. Read `references/elevated-jobs.md` for existing scheduled-task channels and interrupt recovery, and `references/case-study.md` for evidence limits. Record a start marker before each long operation, retain its exit code and end marker, and verify the result from the user's token.
+Read `references/playbook.md` for recovery order; `references/failure-modes.md` to distinguish DACL, metadata, device and I/O failures; `references/ntfs-layout.md` for record layout. Read `references/elevated-jobs.md` for the case record of scheduled-task channels and interrupt recovery - the reusable recipe lives in the `windows-silent-elevate` skill - and `references/case-study.md` for evidence limits. Record a start marker before each long operation, retain its exit code and end marker, and verify the result from the user's token.
 
 This repository does not contain a generic MFT transplant, boot-sector repair or raw export command. The original case used scripts specific to that disk geometry. Do not invent paths or run those operations from illustrative historical references.
